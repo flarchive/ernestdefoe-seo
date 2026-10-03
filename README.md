@@ -2,13 +2,24 @@
 
 > **Read-only archive of released versions of ernestdefoe/seo.** Not for installation: use [Packagist](https://packagist.org/packages/ernestdefoe/seo) or the [upstream repository](https://github.com/ernestdefoe/seo).
 
-**0** versions archived · Latest: [`2.0.15`](https://github.com/flarchive/ernestdefoe-seo/tree/archive/v2.0.15) · License: `MIT` · Flarum: `^2.0`
+**16** versions archived · Latest: [`2.0.15`](https://github.com/flarchive/ernestdefoe-seo/tree/archive/v2.0.15) · License: `MIT` · Flarum: `^2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `2.0.1` | 2025-10-13 | `^1.0.0` | [Browse](https://github.com/flarchive/ernestdefoe-seo/tree/archive/v2.0.1) |
+| `2.0.10` | 2026-05-30 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-seo/tree/archive/v2.0.10) |
+| `2.0.11` | 2026-05-31 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-seo/tree/archive/v2.0.11) |
+| `2.0.12` | 2026-06-08 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-seo/tree/archive/v2.0.12) |
+| `2.0.13` | 2026-07-23 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-seo/tree/archive/v2.0.13) |
+| `2.0.14` | 2026-09-01 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-seo/tree/archive/v2.0.14) |
+| `2.0.15` | 2026-09-13 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-seo/tree/archive/v2.0.15) |
+| `2.0.2` | 2026-05-17 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-seo/tree/archive/v2.0.2) |
+| `2.0.3` | 2026-05-18 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-seo/tree/archive/v2.0.3) |
+| `2.0.4` | 2026-05-18 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-seo/tree/archive/v2.0.4) |
+
+[View all 16 versions](https://github.com/flarchive/ernestdefoe-seo/tags)
 
 Catalog entry: [packages/ernestdefoe-seo.json](https://github.com/flarchive/archive-index/blob/main/packages/ernestdefoe-seo.json)
 
