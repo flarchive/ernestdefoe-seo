@@ -1,0 +1,27 @@
+includes:
+  - vendor/flarum/phpstan/extension.neon
+
+parameters:
+  # One process: flarum/phpstan's bootstrap installs a test forum the first
+  # time it runs, and parallel workers each start that install at once on a
+  # fresh checkout (CI), failing with Install\StepFailed.
+  parallel:
+    maximumNumberOfProcesses: 1
+  level: 6
+  paths:
+    - src
+    - extend.php
+    # flarum/phpstan learns model relations and casts from the extend.php
+    # files in paths: Discussion::tags() from flarum/tags, the best-answer
+    # columns from fof/best-answer. Read, not analysed.
+    - vendor/flarum/tags/extend.php
+    - vendor/fof/best-answer/extend.php
+  excludePaths:
+    analyse:
+      - vendor/flarum/tags/extend.php
+      - vendor/fof/best-answer/extend.php
+    analyseAndScan:
+      - *.blade.php
+  databaseMigrationsPath:
+    - migrations
+    - vendor/fof/pages/migrations

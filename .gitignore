@@ -1,0 +1,10 @@
+/vendor
+composer.phar
+.idea
+.DS_Store
+Thumbs.db
+node_modules
+composer.lock
+.phpunit.result.cache
+/tests/integration/tmp
+/js/coverage-ts
